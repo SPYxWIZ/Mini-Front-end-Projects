@@ -10,6 +10,8 @@ Shows the result of the move and total Wins, Losses and Ties.
 
 It uses a local storage to store the score, which can be reset using the reset score button.
 
+### 1.1 Added an auto play system which picks user and computer moves on its own, and keeps updating the score.
+  It uses the setInterval function which plays the game once every second, and can be stopped by     clicking the button again (uses a simple lock mechanism).
 
 ## 2. ToDo List
 A Simple Todo-List.
