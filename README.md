@@ -13,6 +13,10 @@ It uses a local storage to store the score, which can be reset using the reset s
 ### 1.1 Added an auto play system which picks user and computer moves on its own, and keeps updating the score.
   It uses the setInterval function which plays the game once every second, and can be stopped by     clicking the button again (uses a simple lock mechanism).
 
+
+### 1.2 Now can be played through keyboard by pressing 'r','p' or 's'.
+  Done through the addEventListener function. Same function also added to the buttons instead of     onclick property.
+
 ## 2. ToDo List
 A Simple Todo-List.
 
